@@ -12,7 +12,7 @@ const HeaderSocials = () => {
         <a href="https://www.artstation.com/xime_munox01" className="home__social-link" target="_blank">
             <ColorLensOutlinedIcon/>
         </a>
-        <a href="https://www.linkedin.com/in/ximena-munoz-b52801306" target="_blank">
+        <a href="https://www.linkedin.com/in/ximena-munoz-b52801306" className="home__social-link" target="_blank">
             <LinkedInIcon/>
         </a>
     </div>
