@@ -1,6 +1,6 @@
 import React from 'react'
 import "./sidebar.css"
-import Logo from "../../assets/logo.svg"
+import Logo from "../../assets/logo_new.svg"
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import DesignServicesOutlinedIcon from '@mui/icons-material/DesignServicesOutlined';
