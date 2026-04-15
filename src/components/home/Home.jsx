@@ -12,7 +12,7 @@ const Home = () => {
         <div className="intro">
           <img src={Me} alt="" className="home__img" />
           <h1 className="home__name">Ximena Muñoz</h1>
-          <span className="home__education">Digital Animation Engineer and UX/UI Designer focused on creating clear, functional, and visually engaging experiences</span>
+          <span className="home__education">Digital Animation Engineer and UX/UI Designer focused on creating clear, functional, and visually engaging experiences, with a continuous drive to learn and grow.</span>
 
           <HeaderSocials/>
 

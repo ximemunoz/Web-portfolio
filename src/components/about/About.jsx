@@ -12,7 +12,7 @@ const About = () => {
         <img src={Image} alt="" className="about__img"/>
         <div className="about__data grid">
           <div className="about__info">
-            <p className="about__description"> I am a Digital Animation Engineer with a focus on UX/UI design and frontend development. I’m passionate about creating digital experiences that are not only visually appealing, but also functional and user-centered. I combine design thinking with technical skills to build clear, efficient, and practical interfaces. I am currently seeking opportunities where I can grow as a UX/UI Designer and contribute value to digital products.</p>
+            <p className="about__description">I am a Digital Animation Engineer specializing in UX/UI design and frontend development. I’m passionate about creating digital experiences that are not only visually engaging, but also functional and user-centered. I combine design thinking with technical skills to build clear, efficient, and practical interfaces. I’m continuously learning and expanding my skill set, and I am <strong>currently seeking opportunities to grow as a UX/UI Designer while contributing value to digital products.<strong/></p>
             <a href="https://drive.google.com/file/d/149loPmV6lfDq_UTAaFR5D6tmHOwCn7Fj/view?usp=sharing" className="btn" target="_blank">Download CV</a>
           </div>
 
