@@ -7,20 +7,20 @@ const AboutBox = () => {
   return (
     <div className="about__boxes grid">
         <div className="about__box">
-            <i className="about__icon icon-fire"/>
+            <i className="about__icon icon-cup"/>
 
             <div>
-                <h3 className="about__title">127</h3>
-                <span className="about__subtitle">Proyectos Escolares Completados</span>
+                <h3 className="about__title">∞</h3>
+                <span className="about__subtitle">Coffee & debugging</span>
             </div>
         </div>
 
         <div className="about__box">
-            <i className="about__icon icon-cup"/>
+            <i className="about__icon icon-fire"/>
 
             <div>
-                <h3 className="about__title">71289</h3>
-                <span className="about__subtitle">Tazas de Café</span>
+                <h3 className="about__title">3</h3>
+                <span className="about__subtitle">Designed Interfaces</span>
             </div>
         </div>
 
@@ -28,8 +28,8 @@ const AboutBox = () => {
             <i className="about__icon icon-graduation"/>
 
             <div>
-                <h3 className="about__title">42</h3>
-                <span className="about__subtitle">Materias Cursadas con Éxito</span>
+                <h3 className="about__title">1</h3>
+                <span className="about__subtitle">Engineering + Specialty</span>
             </div>
         </div>
 

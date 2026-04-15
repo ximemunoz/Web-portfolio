@@ -107,3 +107,14 @@
 .about__title {
     font-size: 1.875rem;
 }
+
+.skills__title {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .skills__list p {
+    margin: 6px 0;
+    font-size: 14px;
+    color: #555;
+  }

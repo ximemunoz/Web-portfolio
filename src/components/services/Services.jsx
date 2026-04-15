@@ -1,37 +1,46 @@
 import React from 'react'
 import "./services.css"
-import Image1 from "../../assets/service-1.svg"
-import Image2 from "../../assets/service-2.svg"
-import Image3 from "../../assets/service-3.svg"
+import Image1 from "../../assets/research_icon.svg"
+import Image2 from "../../assets/ideation_icon.svg"
+import Image3 from "../../assets/design_icon.svg"
+import Image4 from "../../assets/iteration_icon.svg"
 
 const data = [
   {
     id: 1,
     image: Image1,
-    title: "Comisiones de Dibujo",
+    title: "Research",
     description:
-      "¿Quires una ilustración personalizada? Podemos trabajar una ilustración artística o un diseño de vectores que se acomode a tus necesidades.",
+      "Understanding user needs and problems",
   },
   {
     id: 2,
     image: Image2,
-    title: "Diseño Web",
+    title: "Ideation",
     description:
-      "¿Te gustaría que tu página web fuera más atractiva visualmente? Puedo diseñar una página que refleje tu estilo.",
+      "Exploring solutions and user flows",
   },
   {
     id: 3,
     image: Image3,
-    title: "Edición de Video",
+    title: "Design",
     description:
-      "¿Quisieras hacer un montaje digital de tus recuerdos favoritos? Puedo ayudarte a hacer edición de video básica",
+      "Wireframes and UI design",
+  },
+
+  {
+    id: 4,
+    image: Image4,
+    title: "Iteration",
+    description:
+      "Testing and improving the experience",
   },
 ];
 
 const Services = () => {
   return (
     <section className="services container section" id="services">
-      <h2 className="section__title">Servicios</h2>
+      <h2 className="section__title">Design Process</h2>
 
       <div className="services__container grid">
         {data.map(({id, image, title, description}) => {

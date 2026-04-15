@@ -12,11 +12,11 @@ const Home = () => {
         <div className="intro">
           <img src={Me} alt="" className="home__img" />
           <h1 className="home__name">Ximena Muñoz</h1>
-          <span className="home__education">Estudiante de Ingeniería en Animación en la Universidad Panamericana</span>
+          <span className="home__education">Digital Animation Engineer and UX/UI Designer focused on creating clear, functional, and visually engaging experiences</span>
 
           <HeaderSocials/>
 
-          <a href="http://ig.me/m/munox_01" className="btn" target='_blank'>Contrátame</a>
+          <a href="mailto:ximenamunoz01@gmail.com" className="btn" target='_blank'>Contact Me!</a>
 
           <ScrollDown/>
           

@@ -6,12 +6,12 @@ import Card from './Card'
 const Resume = () => {
   return (
     <section className="resume container section" id="resume">
-      <h2 className="section__title">Experiencia</h2>
+      <h2 className="section__title">Experience and Education</h2>
 
       <div className="resume__container grid">
         <div className="timeline grid">
           {Data.map((val, id) => {
-            if(val.category == "education") {
+            if(val.category == "experience") {
               return (
                 <Card
                 key={id}
@@ -26,7 +26,7 @@ const Resume = () => {
 
         <div className="timeline grid">
           {Data.map((val, index) => {
-            if(val.category == "experience") {
+            if(val.category == "education") {
               return (
                 <Card key={index}
                 icon={val.icon}
