@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useRef }from 'react'
 import "./home.css"
 import Me from "../../assets/avatar-1.jpg"
 import HeaderSocials from './HeaderSocials'
 import ScrollDown from './ScrollDown'
+import mySong from '/Users/ximenamunoz/Downloads/GitHub/Web-portfolio/src/assets/GoodThing.mp3'; // Adjust path as needed
 
 const Home = () => {
   return (
@@ -17,9 +18,9 @@ const Home = () => {
           <HeaderSocials/>
 
           <a href="mailto:ximenamunoz01@gmail.com" className="btn" target='_blank'>Contact Me!</a>
-
           <ScrollDown/>
-          
+
+            
         </div>
       </section>
     </div>
