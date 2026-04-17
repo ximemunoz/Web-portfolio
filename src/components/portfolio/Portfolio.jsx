@@ -13,15 +13,13 @@ const Portfolio = () => {
 
   return (
     <section className="work container section" id="portfolio">
-      <h2 className="section__title">Trabajos Recientes</h2>
+      <h2 className="section__title">Recent Work</h2>
       <div className="work__filters">
-        <span className="work__item" onClick={() => setItems(Menu)}>Todo</span>
-        <span className="work__item" onClick={() => filterItem("Diseño de Personajes")} >Diseño de Personajes</span>
-        <span className="work__item" onClick={() => filterItem("Animación 2D")}>Animación 2D</span>
-        <span className="work__item" onClick={() => filterItem("Ilustración")} >Ilustración</span>
-        <span className="work__item" onClick={() => filterItem("Video")}>Video</span>
-        <span className="work__item" onClick={() => filterItem("Diseño Web")}>Diseño Web</span>
-        <span className="work__item" onClick={() => filterItem("Código")}>Código</span>
+        <span className="work__item" onClick={() => setItems(Menu)}>All</span>
+        <span className="work__item" onClick={() => filterItem("Design System")} >Design System</span>
+        <span className="work__item" onClick={() => filterItem("App Design")}>App Design</span>
+        <span className="work__item" onClick={() => filterItem("Web Design")}>Web Design</span>    
+
         
       </div>
       <div className="work__container grid">
